@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ward" type="wardType"/>
+  <xs:complexType name="wardType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="type"/>
+      <xs:element type="xs:string" name="rooms_amount"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="number"/>
+  </xs:complexType>
+</xs:schema>
